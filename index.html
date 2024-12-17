@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smishing Detection System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Smishing Detection System</h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/inbox">Inbox</a>
+        <a href="/smishbox">Smish Box</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Check a Message</h2>
+    <form id="messageForm">
+        <textarea id="messageInput" placeholder="Paste your message here..." required></textarea>
+        <button type="submit">Check for Smishing</button>
+    </form>
+
+    <div id="result"></div>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
